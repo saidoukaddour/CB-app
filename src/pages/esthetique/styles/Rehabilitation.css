@@ -1,0 +1,30 @@
+.rehab .img14{
+    float: left;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.rehab .img15{
+    float: right;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.rehab h1{
+    font-weight: normal;
+    font-size:33px;
+    color: rgb(0, 212, 212);
+}
+.rehab{
+    margin-left: 25px;
+    text-align: left;
+    color: grey;
+    height: 90vh;
+}
+.rehab .diag{
+    float: left;
+}

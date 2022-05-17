@@ -1,0 +1,29 @@
+.ortho .img5{
+    float: left;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.ortho .img6{
+    float: right;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.ling{
+    float : left;
+}
+.ortho h1{
+    font-weight: normal;
+    font-size:33px;
+    color: rgb(0, 212, 212);
+}
+.ortho{
+    margin-left: 25px;
+    text-align: left;
+    color: grey;
+    height: 90vh;
+}

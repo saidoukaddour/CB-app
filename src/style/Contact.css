@@ -1,0 +1,103 @@
+.contact{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(224, 233, 241);
+    
+}
+.contact .c-imageside{
+    width: 50%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+
+}
+.contact .c-imageside a {
+    color: black;
+    text-decoration: none;
+}
+.contact .c-imageside a:hover {
+    color: rgb(0, 212, 212);
+    
+}
+
+.contact .c-formside h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10px;
+    font-size: 50px;
+    margin-left: 30px;
+    color: black
+}
+.contact .c-formside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    /* border: 1px solid rgb(46, 83, 95); */
+    border-radius: 15px;
+    float: right;
+    margin: 50px;
+    background-color: rgb(224, 233, 241);;
+
+}
+.c-formside form{
+    display: flex;
+    flex-direction: column;
+}
+.c-formside form input{
+    background-color: transparent;
+    border: none;
+    height: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+.c-formside form textarea{
+    height: 100px;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+.c-formside form label{
+    color: black;
+    
+}
+input::placeholder{
+    font-weight: lighter;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea::placeholder{
+    font-size: small;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact .c-formside form button{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    color: rgb(0, 212, 212);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+    width: 100%;
+/*border: 0.5px solid rgb(0, 212, 212);
+    border-radius: 2px;*/
+  }
+  .contact .c-formside form button:hover {
+    letter-spacing: 3px;
+    background-color: transparent;
+  }
+
+
+

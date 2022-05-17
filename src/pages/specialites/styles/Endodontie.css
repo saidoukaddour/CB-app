@@ -1,0 +1,22 @@
+
+body{
+    background-color: #F5F5F5 ;
+}
+.endo .img{
+    float: right;
+    width: 420px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.endo h1{
+    font-weight: normal;
+    font-size:33px;
+    color: rgb(0, 212, 212);
+}
+.endo{
+    margin-left: 25px;
+    text-align: left;
+    color: grey;
+    height: 90vh;
+}

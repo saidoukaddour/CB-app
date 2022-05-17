@@ -1,0 +1,17 @@
+.pedo .img9{
+    float: right;
+    width: 400px;
+    margin: 30px
+}
+
+.pedo h1{
+    font-weight: normal;
+    font-size:33px;
+    color: rgb(0, 212, 212);
+}
+.pedo{
+    margin-left: 25px;
+    text-align: left;
+    color: grey;
+    height: 90vh;
+}

@@ -1,0 +1,81 @@
+.admin{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(250, 170, 170),rgb(140, 199, 165));
+}
+.admin .container{
+    border-radius: 15px;
+    width: 20% ;
+    height: 40%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    
+}
+
+.admin .container form{
+    /* position: relative;
+    padding-top: 75px;
+    left: 50px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+
+    
+}
+.admin .container form label{
+    color: black ;
+}
+.admin .container form input{
+    height: 30px;
+    width: 80%; 
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+   
+    
+}
+.admin .container form input::placeholder{
+    font-weight: lighter;
+    color: grey;
+}
+
+    .admin .container form .submit{
+    
+        margin-top: 40px;
+        width: 140px;
+        height: 40px;
+        border: none;
+        background-color: #121619;
+        color: whitesmoke;
+       
+        cursor: pointer;
+      
+
+}
+.admin .container form .submit:hover{
+    background-color:rgb(140, 199, 165);
+}
+.admin h2{
+    margin-top: 15px;
+    font-size: 45px;
+    
+    
+}
+
+@media screen and (max-width:900px){
+    .admin .container{
+        border-radius: 15px;
+        width: 50% ;
+        height: 40%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        
+        
+    }
+}
